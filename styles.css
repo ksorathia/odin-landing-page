@@ -14,12 +14,15 @@ body {
 .hero-main {
     font-size: 48px;
     font-weight: 900;
-    color: var(--dark-blue);
+    color: var(--dark-text);
+    padding: 0;
+    margin: 0;
 }
 
 .hero-secondary {
     font-size: 18px;
     color: var(--dark-text-secondary);
+    line-height: 1.4rem;
 }
 
 .hero-logo {
@@ -56,4 +59,45 @@ body {
 
 .nav-items a {
     text-decoration: none;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 64px;
+    background-color: var(--dark-blue);
+}
+
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 1000px;
+    gap: 64px;
+}
+
+.hero-message {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    flex: 1;
+}
+
+.hero-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7d7d7d;
+    color: white;
+    flex: 1;
+}
+
+.btn-primary {
+    background-color: var(--accent);
+    color: white;
+    padding: 8px 32px;
+    border-radius: 8px;
+    border: none;
 }
