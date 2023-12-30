@@ -1,0 +1,55 @@
+:root {
+    --dark-blue: #1f2937;
+    --dark-text: #f9faf8;
+    --dark-text-secondary: #e5e7eb;
+    --accent: #3882f8;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Roboto, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: var(--dark-text-secondary);
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: 900;
+    color: var(--dark-blue);
+}
+
+.hero-secondary {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--dark-text-secondary);
+}
+
+.hero-logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--dark-text);
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--dark-blue);
+    padding: 16px;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
