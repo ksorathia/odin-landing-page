@@ -31,12 +31,6 @@ body {
     color: var(--dark-text);
 }
 
-.quote {
-    font-size: 36px;
-    font-weight: 300;
-    font-style: italic;
-}
-
 .nav {
     display: flex;
     justify-content: center;
@@ -65,7 +59,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 64px 16px;
+    padding: 128px 16px;
     background-color: var(--dark-blue);
 }
 
@@ -106,7 +100,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: stretch;
-    padding: 64px 16px;
+    padding: 128px 16px;
 }
 
 .info-container {
@@ -151,4 +145,33 @@ body {
 .info-message {
     text-align: center;
     width: 180px;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    background-color: var(--dark-text-secondary);
+    padding: 128px 16px;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 800px;
+    gap: 16px;
+}
+
+.quote-message {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    align-self: start;
+}
+
+.quote-attr {
+    font-size: 18px;
+    font-weight: 600;
+    align-self: end;
 }
